@@ -1,12 +1,19 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Link } from "@/i18n/navigation";
-import Navbar from "../components/navbar/navbar";
+import './page.scss';
+import homePageData from "@/data/homePageData.json";
 
 export default async function Home() {
-  return (
-    <div className={styles.page}>
-      HOME PAGE
-    </div>
-  );
+	return (
+		<>
+			<div className="homeContent">
+				<div className='page_firstPage'>
+					<div className="imgContainer">
+						<img src={homePageData.homePage_FirstPageSrc}/>
+					</div>
+					<div className=''>
+
+					</div>
+				</div>
+			</div>
+		</>
+	);
 }

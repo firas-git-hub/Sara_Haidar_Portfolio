@@ -4,5 +4,12 @@
     },
     "LocaleSwitcher":{
         "locale": "fr"
+    },
+    "navbar":{
+        "aboutMe": "A Propos",
+        "areaOfExpertise": "Competences",
+        "publications": "Publications",
+        "contact": "Contact",
+        "home": "Home"
     }
 }

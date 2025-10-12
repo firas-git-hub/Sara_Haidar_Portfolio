@@ -1,17 +1,31 @@
 'use client';
 
+import './navbar.scss'
 import { Button } from "@mui/material";
-import Link from "next/link";
+import navData from "@/data/navigationItemsList.json"
+import { NavDataItemInterface } from '@/interfaces/navDataItemInterface';
+import { useTranslations } from 'next-intl';
+import { getNavbarButtonStyle } from '@/styles/mainTheme';
+import LocaleSwitcher from '@/app/components/localeSwitcher/localeSwitcher';
 
 export default function Navbar() {
+    const t = useTranslations("navbar");
+
     return (
         <>
-            <div >
-                <Button href='/'>home</Button>
-                <Button href='/aboutMe'>About me</Button>
-                <Button href='/areaOfExpertise'>aoe</Button>
-                <Button href='/publications'>pubs</Button>
-                <Button href='/contact'>contact</Button>
+            <div className="navbar">
+                <div className='buttonContainer'>
+                    {
+                        navData.map((navItem: NavDataItemInterface, index) => {
+                            return (
+                                <Button sx={getNavbarButtonStyle()} disableRipple key={index} href={navItem.navPath} >
+                                    {t(navItem.navTitleMsgsKey.toString())}
+                                </Button>
+                            )
+                        })
+                    }
+                </div>
+                <LocaleSwitcher></LocaleSwitcher>
             </div>
         </>
     );

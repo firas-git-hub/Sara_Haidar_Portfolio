@@ -1,11 +1,13 @@
 'use client'
 
+import './localeSwitcher.scss';
 import { useLocale, useTranslations } from 'next-intl';
 import { changeLocale } from '@/app/actions'
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { Button } from '@mui/material';
 import { getLocaleSwitcherButtonStyle } from '@/styles/mainTheme';
 import { useEffect, useState } from 'react';
+import { Language } from '@mui/icons-material';
 
 export default function LocaleSwitcher() {
 	const t = useTranslations('LocaleSwitcher');
@@ -28,8 +30,11 @@ export default function LocaleSwitcher() {
 
 	return (
 		<>
-			<Button sx={getLocaleSwitcherButtonStyle()} className='toggleButton' variant='outlined' onClick={toggleLocale}>
-				{currentLocale.toUpperCase()}
+			<Button sx={getLocaleSwitcherButtonStyle(currentLocale)} className='toggleButton' variant='outlined' onClick={toggleLocale}>
+				<Language sx={{ position: 'absolute' }} />
+				<span>
+					{currentLocale.toUpperCase()}
+				</span>
 			</Button>
 		</>
 	);
