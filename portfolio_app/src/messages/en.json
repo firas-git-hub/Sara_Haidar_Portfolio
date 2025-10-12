@@ -1,6 +1,9 @@
 {
+    "homePage": {
+
+    },
     "aboutMePage":{
-        "aboutMe": "About Me"
+        "title": "About Me"
     },
     "LocaleSwitcher":{
         "locale": "en"
@@ -9,7 +12,7 @@
         "aboutMe": "About Me",
         "areaOfExpertise": "Area Of Expertise",
         "publications": "Publications",
-        "contact": "Contact Info",
+        "contact": "Contact",
         "home": "Home"
     }
 }

@@ -1,13 +1,16 @@
 {
+    "homePage": {
+        
+    },
     "aboutMePage":{
-        "aboutMe": "A propos"
+        "aboutMe": "A Propos"
     },
     "LocaleSwitcher":{
         "locale": "fr"
     },
     "navbar":{
         "aboutMe": "A Propos",
-        "areaOfExpertise": "Competences",
+        "areaOfExpertise": "Expertises",
         "publications": "Publications",
         "contact": "Contact",
         "home": "Home"
