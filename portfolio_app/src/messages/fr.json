@@ -1,14 +1,51 @@
 {
     "homePage": {
-        
+        "secondPage": {
+            "moreAboutMeButtonText": "Plus D'info",
+            "aboutMeCardParagraph": "Avocate et docteure en droit public, chargée de travaux dirigés en droit des sociétés, Me Sarah HAIDAR a construit un parcours académique et professionnel qui lui a permis de développer une expertise en matière de lutte contre la corruption et de compliance, avec un intérêt particulier pour les pays arabes, où ces problématiques s’articulent avec des enjeux politiques et économiques majeurs.",
+            "aboutMeCardTitle": "A Propos"
+        },
+        "thirdPage": {
+            "moreExpertiseButtonText": "Plus D'info",
+            "expertiseCardParagraph": "Avocate et docteure en droit public, chargée de travaux dirigés en droit des sociétés, Me Sarah HAIDAR a construit un parcours académique et professionnel qui lui a permis de développer une expertise en matière de lutte contre la corruption et de compliance, avec un intérêt particulier pour les pays arabes, où ces problématiques s’articulent avec des enjeux politiques et économiques majeurs.",
+            "expertiseCardTitle": "A Propos"
+        },
+        "fourthPage": {
+            "morePublicationsButtonText": "Plus D'info",
+            "publicationsCardParagraph": "Our Firm specialises in Immigration law and assiting non resident businesses. We help you get through the different steps and regulations imposed by the french government.",
+            "publicationsCardTitle": "Publications"
+        }
     },
-    "aboutMePage":{
-        "aboutMe": "A Propos"
+    "aboutMePage": {
+        "title": "A Propos",
+        "paragraphOneContent": "Avocate et docteure en droit public, chargée de travaux dirigés en droit des sociétés, Me Sarah HAIDAR a construit un parcours académique et professionnel qui lui a permis de développer une expertise en matière de lutte contre la corruption et de compliance, avec un intérêt particulier pour les pays arabes, où ces problématiques s’articulent avec des enjeux politiques et économiques majeurs.",
+        "paragraphTwoContent": "Ses expériences diversifiées au sein de cabinets d’avocats, d’ONG et d’administrations publiques, en France, au Liban et aux États-Unis, lui ont permis d’adopter une méthode de travail rigoureuse, alliant réactivité, sens de l’écoute et analyse pluridisciplinaire des problématiques juridiques.",
+        "paragraphThreeContent": "Me HAIDAR a également acquis une expérience significative en droit des étrangers, notamment depuis l’explosion du port de Beyrouth, période au cours de laquelle elle a été sollicitée pour accompagner des proches dans leurs démarches d’immigration.",
+        "paragraphFourContent": "Parallèlement, sa passion pour l’entrepreneuriat l’a conduite à s’intéresser aux entrepreneurs et aux startups. Elle s’attache tout particulièrement à l’accompagnement des étrangers dans leurs démarches de relocation en France, consciente des obstacles administratifs et pratiques auxquels ils peuvent être confrontés. Elle souhaite ainsi mettre ses compétences à leur service afin de faciliter leur installation et de contribuer au développement de leurs activités."
     },
-    "LocaleSwitcher":{
+    "areaOfExpertisePage": {},
+    "publicationsPage": {},
+    "contactPage": {
+        "submitButtonText": "ENVOYER",
+        "submitSuccessMessage": "E-mail envoyé !",
+        "submitFailureMessage": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+        "submitBadFormMessage": "Veuillez suivre les directives du formulaire.",
+        "formFirstNameFieldLabel": "Prénom",
+        "formFirstNameFieldPlaceholder": "Entrez votre prénom",
+        "formLastNameFieldLabel": "Nom",
+        "formLastNameFieldPlaceholder": "Entrez votre nom",
+        "formEmailFieldLabel": "E-mail",
+        "formEmailFieldPlaceholder": "Entrez votre adresse e-mail",
+        "formPhoneNumberFieldLabel": "Numéro de téléphone",
+        "formPhoneNumberFieldPlaceholder": "Entrez votre numéro de téléphone",
+        "formMessageFieldLabel": "Message",
+        "formMessageFieldPlaceholder": "Entrez votre message",
+        "contactFormTitle": "À votre écoute !"
+    },
+    "LocaleSwitcher": {
         "locale": "fr"
     },
-    "navbar":{
+    "navbar": {
         "aboutMe": "A Propos",
         "areaOfExpertise": "Expertises",
         "publications": "Publications",

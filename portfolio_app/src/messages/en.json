@@ -1,14 +1,52 @@
 {
     "homePage": {
-
+        "secondPage": {
+            "moreAboutMeButtonText": "More Info",
+            "aboutMeCardParagraph": "Lawyer, Doctor of Public Law, and lecturer in corporate law. My academic and professional background has allowed me to develop expertise in anti-corruption and compliance, with a particular focus on Arab countries, where these issues intertwine with major political and economic dimensions.",
+            "aboutMeCardTitle": "About Me"
+        },
+        "thirdPage": {
+            "moreExpertiseButtonText": "More Info",
+            "expertiseCardParagraph": "Our Firm specialises in Immigration law and assiting non resident businesses. We help you get through the different steps and regulations imposed by the french government.",
+            "expertiseCardTitle": "Expertises"
+        },
+        "fourthPage": {
+            "morePublicationsButtonText": "More Info",
+            "publicationsCardParagraph": "Our Firm specialises in Immigration law and assiting non resident businesses. We help you get through the different steps and regulations imposed by the french government.",
+            "publicationsCardTitle": "Publications"
+        }
     },
-    "aboutMePage":{
-        "title": "About Me"
+    "aboutMePage": {
+        "title": "About Me",
+        "paragraphOneContent": "Lawyer, Doctor of Public Law, and lecturer in corporate law. My academic and professional background has allowed me to develop expertise in anti-corruption and compliance, with a particular focus on Arab countries, where these issues intertwine with major political and economic dimensions.",
+        "paragraphTwoContent": "Through my diverse experience in law firms, NGOs, and public administrations in France and abroad, I have developed a disciplined working approach grounded in responsiveness, active listening, and a multidisciplinary perspective on legal issues.",
+        "paragraphThreeContent": "I have also developed expertise in immigration law, particularly since the Beirut port explosion, during which I was approached to assist many individuals with their procedures. At the same time, my passion for entrepreneurship has led me to support project leaders and business owners. Aware of the heavy workload and challenges they face, I aim to put my skills at their service to help them anticipate and overcome these obstacles."
     },
-    "LocaleSwitcher":{
+    "areaOfExpertisePage": {
+        "firstPageHeader": "Area Of Expertise"
+    },
+    "publicationsPage": {},
+    "contactPage": {
+        "submitButtonText": "SUBMIT",
+        "submitSuccessMessage": "Email Sent!",
+        "submitFailureMessage": "Something went wrong. Please retry after some time.",
+        "submitBadFormMessage": "Please follow the form guidelines.",
+        "formFirstNameFieldLabel": "First Name",
+        "formFirstNameFieldPlaceholder": "Enter your first name",
+        "formLastNameFieldLabel": "Last Name",
+        "formLastNameFieldPlaceholder": "Enter your last name",
+        "formEmailFieldLabel": "Email",
+        "formEmailFieldPlaceholder": "Enter your email address",
+        "formPhoneNumberFieldLabel": "Phone Number",
+        "formPhoneNumberFieldPlaceholder": "Enter your phone number",
+        "formMessageFieldLabel": "Message",
+        "formMessageFieldPlaceholder": "Enter your message",
+        "contactFormTitle": "We are all ears !"
+    },
+    "LocaleSwitcher": {
         "locale": "en"
     },
-    "navbar":{
+    "navbar": {
         "aboutMe": "About Me",
         "areaOfExpertise": "Area Of Expertise",
         "publications": "Publications",

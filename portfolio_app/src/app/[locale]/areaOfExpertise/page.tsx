@@ -1,10 +1,19 @@
-export default function Qualifications() {
-    return(
+import './page.scss';
+import jsonData from '../../../data/areaOfExpertiseData.json';
+import { useTranslations } from 'next-intl';
+
+export default function AreaOfExpertise() {
+    const t = useTranslations("areaOfExpertisePage")
+    return (
         <>
-            <div>
-                <p>
-                    In progress
-                </p>
+            <div className='areaOfExpertisePage'>
+                <div className='introPage page'>
+                    <img src={jsonData.patternImgSrc} />
+                    <p className='header glassBg'>{t('firstPageHeader')}</p>
+                </div>
+                <div className='contentPage page'>
+
+                </div>
             </div>
         </>
     )

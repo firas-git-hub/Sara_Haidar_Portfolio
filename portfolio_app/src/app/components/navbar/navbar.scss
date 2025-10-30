@@ -13,5 +13,9 @@
         align-content: space-between;
         justify-content: center;
         padding-inline: 20%;
+
+        .MuiButton-root{
+            white-space: nowrap;
+        }
     }
 }

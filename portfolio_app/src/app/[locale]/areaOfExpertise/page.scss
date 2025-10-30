@@ -1,0 +1,40 @@
+.areaOfExpertisePage {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    .introPage {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        min-height: 0;
+
+        img {
+            z-index: -1;
+            height: auto;
+            width: 100%;
+        }
+
+        .header {
+            color: goldenrod;
+            white-space: nowrap;
+            padding: 2rem;
+            font-family: 'Vladimir Script', 'Brush Script MT';
+            font-size: 10rem;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+        }
+    }
+
+    .glassBg {
+        background: rgba(0, 0, 0, 0.74);
+        border: 0.75rem solid white;
+        box-shadow: 0 8px 48px rgba(0, 0, 0, 0.95);
+    }
+}
