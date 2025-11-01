@@ -1,3 +1,15 @@
 {
-    "patternImgSrc": "/icons/justiceHouse_transparentBg.png"
+    "patternImgSrc": "/images/palais_de_justice.jpg",
+    "content": {
+        "tabs": [
+            {
+                "titleKey": "immigrationTabTitle",
+                "contentKey": "immigrationTabContent"
+            },
+            {
+                "titleKey": "businessTabTitle",
+                "contentKey": "businessTabContent"
+            }
+        ]
+    }
 }

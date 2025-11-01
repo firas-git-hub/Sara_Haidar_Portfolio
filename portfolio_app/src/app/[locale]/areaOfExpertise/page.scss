@@ -1,8 +1,9 @@
 .areaOfExpertisePage {
 
-    justify-content: center;
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
 
     .introPage {
         position: relative;
@@ -10,7 +11,7 @@
         align-items: center;
         height: fit-content;
         width: fit-content;
-        min-height: 0;
+        overflow: hidden;
 
         img {
             z-index: -1;
@@ -32,9 +33,20 @@
         }
     }
 
+    .contentPage {
+        height: 100%;
+        max-height: unset;
+        min-height: 100%;
+
+        .tabContentText {
+            
+        }
+    }
+
     .glassBg {
         background: rgba(0, 0, 0, 0.74);
         border: 0.75rem solid white;
         box-shadow: 0 8px 48px rgba(0, 0, 0, 0.95);
     }
+
 }
