@@ -31,7 +31,19 @@
             "businessTabContent": "<h2>B – Business Law</h2><p>Starting a business in France as a non-resident is a tremendous opportunity: a dynamic market, attractive public support (such as the French Tech program), and a secure legal framework. However, the administrative, tax, and social processes can be complex.</p><p>We support you at every stage of your entrepreneurial project in France:</p><ul><li>Company formation (SAS, SARL, EURL, etc.)</li><li>Drafting and adaptation of bylaws</li><li>Company registration and administrative formalities</li><li>Assistance in anticipating the tax consequences of your establishment and optimizing your strategy to avoid double taxation under international treaties</li><li>Support for foreign entrepreneurs in their procedures from abroad, taking into account specific challenges related to compliance and anti-money laundering/combating the financing of terrorism</li></ul>"
         }
     },
-    "publicationsPage": {},
+    "publicationsPage": {
+        "pageHeader": "Publications",
+        "content": {
+            "appointmentDifficultyPubPreviewTitle": "Difficulties in Getting an Appointment at the Prefecture",
+            "appointmentDifficultyPubPreviewContent": "You need to contact the prefecture or sub-prefecture of your place of residence",
+            "appointmentDifficultyPubContent": "<h2>Difficulties in Getting an Appointment at the Prefecture: What Are the Solutions?</h2><p>You need to contact the prefecture or sub-prefecture of your place of residence to submit a residence permit application, but the process seems complicated. You try to book an appointment online without success and may even consider using services that offer appointments at exorbitant prices, even though their activity is illegal.</p><p>Rest assured, you are not alone in this situation. In the Île-de-France region, this difficulty particularly affects several prefectures and sub-prefectures.</p><h3>What Possible Steps Can Be Taken?</h3><ol><li><strong>Write to the Prefecture</strong><p>You can inform the prefecture, by letter, of your inability to obtain an appointment and request a summons. However, this solution has its limits, as they may simply ask you to try again online.</p></li><li><strong>File an Urgent Administrative Court Action (Injunction)</strong><p>It is possible to ask the court to order the prefecture to provide you with a summons to submit your application. To do this, it is necessary to document your unsuccessful attempts (screenshots, follow-up emails sent to the prefecture, etc.).</p></li></ol><p>We can assist you in this procedure before the administrative court. We also provide comprehensive support: preparing the file, liaising with the prefecture, and following up on the process until the administration’s final decision.</p>"
+        },
+        "readMore": "Read more",
+        "publicationGoBackButton": "Go back",
+        "visaPassportHelp": "Visa / Passport",
+        "immigration": "Immigration",
+        "companies": "Companies"
+    },
     "contactPage": {
         "submitButtonText": "SUBMIT",
         "submitSuccessMessage": "Email Sent!",

@@ -9,3 +9,8 @@ export async function changeLocale(newLocale: string): Promise<void> {
     setRequestLocale(newLocale)
     return
 }
+
+export async function getLocale(): Promise<string|undefined> {
+    let cookieStore = await cookies();
+    return cookieStore.get('locale')?.value;
+}

@@ -2,8 +2,10 @@
 
     display: flex;
     flex-direction: column;
-    height: 100%;
+    max-height: calc(100vh - 4rem);
     overflow: auto;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 79%, rgba(87, 66, 0, 1) 98%);
+    // scroll-snap-type: y proximity;
 
     .introPage {
         position: relative;
@@ -12,6 +14,7 @@
         height: fit-content;
         width: fit-content;
         overflow: hidden;
+        z-index: 5;
 
         img {
             z-index: -1;
@@ -34,12 +37,51 @@
     }
 
     .contentPage {
-        height: 100%;
-        max-height: unset;
-        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
 
-        .tabContentText {
-            
+        .MuiTabs-root {
+            .MuiButtonBase-root {
+                color: white;
+            }
+
+            .MuiTabs-indicator {
+                background-color: goldenrod;
+            }
+        }
+
+        &>.MuiBox-root {
+            width: 70%;
+            height: 100%;
+            box-shadow: 1px 1px 1px 1px solid black;
+            padding-bottom: 1.5rem;
+        }
+
+        .tabsContentText {
+            .title {
+                padding-block: 1.5rem;
+            }
+
+            &>p {
+                padding-bottom: 1rem;
+            }
+
+            ol {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+
+                &>li {
+                    padding-bottom: 0.5rem;
+                    border-inline-start: 2px solid goldenrod;
+                }
+
+                & li {
+                    padding-inline-start: 0.75rem;
+                }
+            }
         }
     }
 

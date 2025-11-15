@@ -23,7 +23,7 @@ function CustomTabPanel(props: TabPanelProps) {
             aria-labelledby={`simple-tab-${index}`}
             {...other}
         >
-            {value === index && <Box sx={{ p: 3 }}>{children}</Box>}
+            {value === index && <Box>{children}</Box>}
         </div>
     );
 }
@@ -75,7 +75,7 @@ export default function AreaOfExpertise() {
                                                     ul: (chunks) => <ul>{chunks}</ul>,
                                                     li: (chunks) => <li>{chunks}</li>,
                                                     strong: (chunks) => <strong>{chunks}</strong>,
-                                                    h2: (chunks) => <h2>{chunks}</h2>,
+                                                    h2: (chunks) => <h2 className='title'>{chunks}</h2>,
                                                     p: (chunks) => <p>{chunks}</p>
                                                 })
                                             }
