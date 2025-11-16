@@ -6,7 +6,8 @@
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-    .buttonContainer{
+
+    .buttonContainer {
         display: flex;
         height: 100%;
         flex-direction: row;
@@ -14,8 +15,28 @@
         justify-content: center;
         padding-inline: 20%;
 
-        .MuiButton-root{
+        .MuiButton-root {
             white-space: nowrap;
+        }
+    }
+
+    .menuDrawerButtonContainer {
+        display: flex;
+        height: 100%;
+        .MuiButtonBase-root.menuDrawerButton {
+            border-radius: 0;
+            height: 100%;
+            aspect-ratio: 1 / 1;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        .buttonContainer {
+            .MuiButton-root {
+                font-size: 0.75rem;
+            }
         }
     }
 }

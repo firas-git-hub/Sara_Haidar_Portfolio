@@ -53,3 +53,39 @@
         }
     }
 }
+
+@media (max-width: 1500px) {
+    .aboutMePage {
+        .aboutMeContent {
+            .textContent {
+                font-size: 1.15rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    .aboutMePage {
+        .aboutMeContent {
+            .title {
+                font-size: 4.5rem;
+            }
+
+            .textContent {
+                padding: 1rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .aboutMePage {
+        .aboutMeContent {
+            flex-basis: 100%;
+        }
+        .titleImgContainer {
+            display: none;
+        }
+    }
+}

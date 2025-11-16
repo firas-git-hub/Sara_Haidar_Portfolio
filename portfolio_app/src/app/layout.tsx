@@ -6,7 +6,7 @@ import "./globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "./components/navbar/navbar";
 
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }));

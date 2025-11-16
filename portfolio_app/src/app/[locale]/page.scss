@@ -185,6 +185,24 @@
 
 
     }
+
+    .page_fifthPage {
+        text-align: center;
+
+        .card {
+            border-radius: unset;
+            gap: 5rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cardContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+    }
 }
 
 @keyframes blurIn {
@@ -198,5 +216,90 @@
         background-color: currentColor;
         opacity: 1;
         filter: blur(0);
+    }
+}
+
+@media (max-width: 1200px) {
+    .homeContent {
+        .card {
+            padding: 1rem;
+
+            .title {
+                font-size: 4rem;
+            }
+
+            .cardContent {
+                font-size: 1rem;
+            }
+
+            .MuiButton-root {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .homeContent {
+        .page_firstPage {
+            .messageOverlayContainer {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .homeContent {
+        .page_thirdPage {
+            .card {
+                .cardContentContainer {
+                    .expertise {
+                        gap: 2.5rem;
+                    }
+                }
+            }
+
+            .expertise_icons {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .homeContent {
+        .page_firstPage {
+            .messageOverlayContainer {
+                width: 75%;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .homeContent {
+        .card {
+            .title {
+                font-size: 3rem;
+            }
+        }
+
+        .sideImgContainer {
+            display: none;
+        }
+
+
+        .page_thirdPage {
+            .card {
+                flex-basis: 100%;
+            }
+        }
+
+        .page_secondPage {
+            .homePage_aboutMe {
+                flex-basis: 100%;
+            }
+        }
     }
 }

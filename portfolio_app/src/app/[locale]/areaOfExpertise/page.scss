@@ -16,10 +16,15 @@
         overflow: hidden;
         z-index: 5;
 
-        img {
-            z-index: -1;
-            height: auto;
-            width: 100%;
+        .imgContainer {
+            align-self: normal;
+
+            img {
+                z-index: -1;
+                height: auto;
+                width: 100%;
+                object-fit: cover;
+            }
         }
 
         .header {
@@ -91,4 +96,86 @@
         box-shadow: 0 8px 48px rgba(0, 0, 0, 0.95);
     }
 
+}
+
+@media (max-width: 1200px) {
+    .areaOfExpertisePage {
+        .introPage {
+            .header {
+                font-size: 7rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 875px) {
+    .areaOfExpertisePage {
+        .introPage {
+            .header {
+                font-size: 4rem;
+            }
+        }
+
+        .contentPage {
+            .MuiTabs-root {
+                .MuiButtonBase-root {
+                    color: white;
+                    font-size: 0.75rem;
+                }
+            }
+
+            &>.MuiBox-root {
+                width: 90%;
+                height: 100%;
+                box-shadow: 1px 1px 1px 1px solid black;
+                padding-bottom: 1rem;
+            }
+
+            .tabsContentText {
+                .title {
+                    // font-size: ;
+                }
+
+                &>p {
+                    padding-bottom: 1rem;
+                }
+
+                ol {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+
+                    &>li {
+                        padding-bottom: 0.5rem;
+                        border-inline-start: 2px solid goldenrod;
+                    }
+
+                    & li {
+                        padding-inline-start: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .areaOfExpertisePage {
+        .introPage {
+            .header {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .areaOfExpertisePage {
+        .introPage {
+            .header {
+                font-size: 1.75rem;
+                border-width: 0.5rem;
+            }
+        }
+    }
 }

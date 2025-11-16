@@ -56,7 +56,7 @@ export default function AreaOfExpertise() {
                 <div className='contentPage page'>
                     <Box sx={{ width: '100%' }}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                            <Tabs allowScrollButtonsMobile variant='scrollable' scrollButtons="auto" value={value} onChange={handleChange} aria-label="basic tabs example">
                                 {
                                     jsonData.content.tabs.map((item, index) => {
                                         return <Tab key={index} label={t('tabsContent.' + item.titleKey)} {...a11yProps(index)} />

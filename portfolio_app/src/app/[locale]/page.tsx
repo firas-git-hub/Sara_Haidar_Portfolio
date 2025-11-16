@@ -43,7 +43,7 @@ export default async function Home() {
 								</Button>
 							</div>
 						</div>
-						<div className='imgContainer portraitImg'>
+						<div className='imgContainer portraitImg sideImgContainer'>
 							<img src={homePageData.secondPage.imgSrc} />
 						</div>
 					</div>
@@ -63,7 +63,7 @@ export default async function Home() {
 								{
 									homePageData.thirdPage.expertisesIcons.map((item, index) => {
 										return (
-											<div key={index} className='imgContainer glassBg'>
+											<div key={index} className='imgContainer glassBg sideImgContainer'>
 												<img src={item.src} />
 											</div>
 										)
@@ -98,6 +98,18 @@ export default async function Home() {
 					</div>
 				</div>
 
+				<div className='page page_fifthPage'>
+					<div className='homePage_honorary flex--row'>
+						<div className='card'>
+							<p className='title'>{t('fifthPage.honoraryTitle')}</p>
+							<div className='cardContent'>
+								{t.rich('fifthPage.honoraryContent', {
+									p: (chunks) => <p>{chunks}</p>
+								})}
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</>
 	);
