@@ -10,6 +10,7 @@ import LocaleSwitcher from '@/app/components/localeSwitcher/localeSwitcher';
 import { useMediaQuery } from '@/services/mediaQueryHook';
 import React from 'react';
 import { Inbox, Mail, Menu } from '@mui/icons-material';
+import ContactPopupButton from '../contactPopupButton/contactPopupButton';
 
 export default function Navbar() {
     const t = useTranslations("navbar");
@@ -53,6 +54,7 @@ export default function Navbar() {
                             </Drawer>
                         </div>
                 }
+                <ContactPopupButton></ContactPopupButton>
                 <LocaleSwitcher></LocaleSwitcher>
             </div>
         </>

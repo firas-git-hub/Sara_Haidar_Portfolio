@@ -1,6 +1,6 @@
 import { SxProps, Theme } from "@mui/material";
 
-export const getLocaleSwitcherButtonStyle = (locale: string): SxProps<Theme> => {
+export const getLocaleSwitcherButtonStyle = (): SxProps<Theme> => {
     return ({
         position: 'absolute',
         padding: '0rem',

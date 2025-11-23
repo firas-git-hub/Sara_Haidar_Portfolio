@@ -180,7 +180,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-height: 12rem;
+                min-height: 18rem;
 
                 .MuiButton-root {
                     border-radius: 0.25rem;
@@ -198,9 +198,11 @@
 
     .page_fifthPage {
         text-align: center;
+
         .homePage_honorary {
             width: 100%;
         }
+
         .card {
             border-radius: unset;
             gap: 5rem;
@@ -329,6 +331,7 @@
             .homePage_publications {
                 .card {
                     flex-direction: column;
+                    min-height: 12rem;
                 }
             }
         }

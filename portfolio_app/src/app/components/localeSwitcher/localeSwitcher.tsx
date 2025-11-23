@@ -30,7 +30,7 @@ export default function LocaleSwitcher() {
 
 	return (
 		<>
-			<Button sx={getLocaleSwitcherButtonStyle(currentLocale)} className='toggleButton' variant='outlined' onClick={toggleLocale}>
+			<Button sx={getLocaleSwitcherButtonStyle()} className='toggleButton' variant='outlined' onClick={toggleLocale}>
 				<Language sx={{ position: 'absolute' }} />
 				<span>
 					{currentLocale.toUpperCase()}
