@@ -7,14 +7,13 @@ import { Button, Chip, IconButton } from '@mui/material';
 import { KeyboardDoubleArrowRightRounded } from '@mui/icons-material';
 
 export const PublicationCategoryColor: Record<string, string> = {
-    immigration: "burlywood",
-    visaPassportHelp: "cornflowerblue",
-    companies: "darkcyan"
+    prefectureRelations: "burlywood",
+    visaPassport: "cornflowerblue",
+    nationality: "darkcyan"
 }
 
 export default function Publications() {
     const t = useTranslations('publicationsPage')
-
 
     return (
         <>
@@ -35,7 +34,6 @@ export default function Publications() {
                                     </div>
                                     <p className='teaserContent'>{t('content.' + item.previewContentKey)}</p>
                                     <IconButton size='small' href={`/publications/${item.slug}?id=${index}`}>
-                                        {/* {t('readMore')} */}
                                         <KeyboardDoubleArrowRightRounded />
                                     </IconButton>
                                 </div>

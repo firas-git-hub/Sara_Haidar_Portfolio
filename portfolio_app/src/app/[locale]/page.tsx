@@ -79,16 +79,16 @@ export default async function Home() {
 				</div>
 
 				<div className='page page_fourthPage'>
-					<div className='flex--row'>
+					<div className='flex--row itemsContainer'>
 						<div className='imgContainer sideImgContainer'>
 							<img src={homePageData.fourthPage.sideImgSrc} />
 						</div>
 						<div className='homePage_publications flex--row'>
 							<div className='card'>
 								<p className='title'>{t('fourthPage.publicationsCardTitle')}</p>
-								<div className='cardContent'>
+								{/* <div className='cardContent'>
 									{t('fourthPage.publicationsCardParagraph')}
-								</div>
+								</div> */}
 								<Button sx={{ color: 'black', backgroundColor: 'gold' }} href='/publications'>
 									{t('fourthPage.morePublicationsButtonText') ? t('fourthPage.morePublicationsButtonText') : ''}
 									<ArrowRight />

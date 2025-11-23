@@ -9,6 +9,10 @@
             {
                 "titleKey": "businessTabTitle",
                 "contentKey": "businessTabContent"
+            },
+            {
+                "titleKey": "foreignBusinessTabTitle",
+                "contentKey": "foreignBusinessTabContent"
             }
         ]
     }

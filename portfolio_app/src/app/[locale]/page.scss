@@ -156,6 +156,11 @@
     }
 
     .page_fourthPage {
+
+        .itemsContainer {
+            width: 100%;
+        }
+
         .sideImgContainer {
             img {
                 object-fit: contain;
@@ -167,10 +172,15 @@
 
         .homePage_publications {
             padding: 1rem;
+            width: 100%;
 
             .card {
                 height: fit-content;
                 align-self: center;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                min-height: 12rem;
 
                 .MuiButton-root {
                     border-radius: 0.25rem;
@@ -188,7 +198,9 @@
 
     .page_fifthPage {
         text-align: center;
-
+        .homePage_honorary {
+            width: 100%;
+        }
         .card {
             border-radius: unset;
             gap: 5rem;
@@ -249,6 +261,17 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .homeContent {
+        .page_fourthPage {
+            .imgContainer {
+                display: none;
+            }
+        }
+    }
+}
+
+
 @media (max-width: 800px) {
     .homeContent {
         .page_thirdPage {
@@ -299,6 +322,14 @@
         .page_secondPage {
             .homePage_aboutMe {
                 flex-basis: 100%;
+            }
+        }
+
+        .page_fourthPage {
+            .homePage_publications {
+                .card {
+                    flex-direction: column;
+                }
             }
         }
     }

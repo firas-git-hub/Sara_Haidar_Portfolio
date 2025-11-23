@@ -48,6 +48,8 @@
         color: white;
 
         .MuiTabs-root {
+            padding-bottom: 1.5rem;
+
             .MuiButtonBase-root {
                 color: white;
             }
@@ -66,7 +68,7 @@
 
         .tabsContentText {
             .title {
-                padding-block: 1.5rem;
+                padding-bottom: 1.5rem;
             }
 
             &>p {
